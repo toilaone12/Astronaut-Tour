@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <div class="navbar">
+                    <div class="logo">
+                        <i class="logo--red fas fa-user-astronaut"></i>
+                        <p class="logo__title">Astronaut Tour</p>
+                    </div>
+                    <div class="list">
+                        <i class="list__icon fas fa-bars js-menu">            
+                        </i>
+                        <ul class="list__items list--hover js-list">
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="">
+                                Home Page
+                                </a>
+                            </li>
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="#travel">
+                                Travel
+                                </a>
+                            </li>
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="#offers">
+                                Offers
+                                </a>
+                            </li>
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="#company">
+                                About Company
+                                </a>
+                            </li>
+                            <li class="list__name">
+                                <a href="">
+                                Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="slide">
+            <img src="./img/space.jpg" alt="Space" class="slide__img">
+            <img src="./img/astrounat2.jpg" alt="Astronaut" class="slide__img-astrounat">        
+        </div>
+        <div class="content">
+            <div class="selection-content" id="travel">
+
+                <span class="content__title ">Travel</span>
+                <span class="content__subtitle">Experience places you've never been before</span>
+                <div class="grid__content">
+                    <div class="grid__row">
+                        <div class="short-bar">
+                            <div class="short-bar__items">
+                                <button class="short-bar__title">
+                                    <i class="short-bar--right fas fa-plane"></i>
+                                    Flight
+                                </button>
+                                <button class="short-bar__title">
+                                    <i class="short-bar--right fas fa-hotel"></i>
+                                    Hotel
+                                </button>
+                                <button class="short-bar__title">
+                                    <i class="short-bar--right fas fa-car"></i>
+                                    Rental
+                                </button>
+                            </div>
+                            <div class="short-bar__table">
+                                <span class="short-bar__name">Travel the world with us</span>
+                                <div class="short-bar__place">
+                                    <span class="short-bar__from">From</span>
+                                    <span class="short-bar__to">To</span>
+                                </div>
+                                <div class="short-bar__travel">
+                                    <input type="text" placeholder="Departing from" name="" id="" class="short-bar__departing">
+                                    <input type="text" placeholder="Arriving at" name="" id="" class="short-bar__arriving">
+                                </div>
+                                <div class="short-bar__people">
+                                    <span class="short-bar__adult">Adults</span>
+                                    <span class="short-bar__kid">Kids</span>
+                                </div>
+                                <div class="short-bar__travel">
+                                    <input type="number" value="0" min="0" name="" id="" class="short-bar__departing">
+                                    <input type="number" value="0" min="0" name="" id="" class="short-bar__arriving">
+                                </div>
+                                <input type="submit" value="Search and find dates" class="short-bar__search">
+                            </div>
+                        </div>
+                        <div class="home__product">
+                            <div class="grid__row-flex">
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-1"></div>
+                                            <span class="table__name">Cinque Terre</span>
+                                            <p class="table__price">From $1000</p>
+                                            <p class="table__place">Place: Italia</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <a href="index1.html" style="text-decoration: none;"><button class="table__btn">Choose Place</button></a>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-2"></div>
+                                            <span class="table__name table--name-line">Liberty Enlightening</span>
+                                            <p class="table__price">From $5000</p>
+                                            <p class="table__place">Place: New York</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-3"></div>
+                                            <span class="table__name">Piza Tower</span>
+                                            <p class="table__price">From $3600</p>
+                                            <p class="table__place">Place: Italia</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-4"></div>
+                                            <span class="table__name">Eiffel Tower</span>
+                                            <p class="table__price">From $1200</p>
+                                            <p class="table__place">Place: Paris</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-5"></div>
+                                            <span class="table__name">Louvre Museum</span>
+                                            <p class="table__price">From $3000</p>
+                                            <p class="table__place">Place: Paris</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-6"></div>
+                                            <span class="table__name">Hoi An</span>
+                                            <p class="table__price">From $300</p>
+                                            <p class="table__place">Place: VietNam</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-7"></div>
+                                            <span class="table__name">Taj Mahal Tomb</span>
+                                            <p class="table__price">From $1500</p>
+                                            <p class="table__place">Place: India</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-8"></div>
+                                            <span class="table__name">Great Sphinx of Giza</span>
+                                            <p class="table__price">From $8000</p>
+                                            <p class="table__place">Place: Egypt</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            <div class="selection-content" id="offers">
+                <span class="content__title">Best Offers</span>
+                <span class="content__subtitle">Best Offers For You</span>
+                <div class="grid__content">
+                    <div class="grid__row-flex">
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <a href="#" class="offers__select" style="text-decoration: none;">
+                                        <button class="offers-subtitle__btn">See More</button>
+                                    </a>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="https://cdn.pixabay.com/photo/2017/12/31/00/06/waters-3051282_960_720.jpg" style="height: 319px;" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">3 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Protofino</span>
+                                        <span class="offers-list__price">$3000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <a href="info1.html" class="offers__select" style="text-decoration: none;">
+                                        <button class="offers-subtitle__btn">See More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/newyork2.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">United State</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Liberty Enlightening</span>
+                                        <span class="offers-list__price">$6500</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img style="height: 319px;" src="data:image/jpeg;base64,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" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">VietNam</span>
+                                        <span class="offers-list__day">7 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Hoi An</span>
+                                        <span class="offers-list__price">$900</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img style="height: 319px;" src="http://dulichchauau.org/view/admin/Themes/kcfinder/upload/images/new/10-dia-diem-du-lich-thuy-si-dep-nhat/Lau-dai-Chillon.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Switzerland</span>
+                                        <span class="offers-list__day">3 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Chillon Castle</span>
+                                        <span class="offers-list__price">$1500</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div action="index1.html" class="offers">
+                                <img style="height: 319px;" src="http://dulichchauau.org/view/admin/Themes/kcfinder/upload/images/new/10-dia-diem-du-lich-thuy-si-dep-nhat/Vung-Jungfrau.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Switzerland</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Jungfrau</span>
+                                        <span class="offers-list__price">$3790</span>
+                                    </div>
+                                </div>
+                            
+                                <span class="offers__good-deal">
+                                    Best Deal
+                                    <span>25%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="selection-content" id="company">
+                <div class="grid__content">
+                    <span class="content__title">About Company</span>
+                    <span class="content__subtitle">All Information About The Company</span>
+ 
+                        <div class="about">
+                            <div class="grid__row-flex">
+                                <div class="grid__column-6">
+                                    <span class="about__info">Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                                    <span class="about__pay">
+                                        We accept:
+                                        <i class="fas fa-credit-card about__cart"></i>
+                                        <i class="fab fa-cc-visa about__cart"></i>
+                                        <i class="fab fa-cc-paypal about__cart"></i>
+                                        <i class="fab fa-cc-mastercard about__cart"></i>
+                                        <i class="fab fa-cc-amazon-pay about__cart"></i>
+                                    </span>
+                                </div>
+                                <div class="grid__column-6">
+                                    <div class="about__img"></div>
+                                </div>
+                                <div class="grid__column-6">
+                                    <div class="about__img-1"></div>
+                                </div>
+                                <div class="grid__column-6">
+                                    <span class="about__info">Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        <br>Subscribe to receive updates on available dates and special offers.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="selection-content" id="review">
+                <div class="grid__content">
+                    <span class="content__title">Review</span>
+                    <div class="review">
+                        <div class="grid__row-flex">
+                            
+                            <div class="grid__column-3">
+                                    <div class="review__list">
+                                        <img src="./img/pic3.png" alt="" class="review__img">
+                                        <h3 class="review__name">Steve Rock</h3>
+                                        <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                        <div class="review__evaluate">
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="far fa-star review--yellow"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="grid__column-3">
+                                
+                                <div class="review__list">
+                                    <img src="./img/pic3.png" alt="" class="review__img">
+                                    <h3 class="review__name">Steve Rock</h3>
+                                    <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                    <div class="review__evaluate">
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="far fa-star review--yellow"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__column-3">
+                                
+                                <div class="review__list">
+                                    <img src="./img/pic3.png" alt="" class="review__img">
+                                    <h3 class="review__name">Steve Rock</h3>
+                                    <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                    <div class="review__evaluate">
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="far fa-star review--yellow"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__column-3">
+                                
+                                <div class="review__list">
+                                    <img src="./img/pic3.png" alt="" class="review__img">
+                                    <h3 class="review__name">Steve Rock</h3>
+                                    <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                    <div class="review__evaluate">
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="far fa-star review--yellow"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selection-content" id="contact">
+                <div class="grid__content">
+                    <span class="content__title">Contact</span>
+                    <div class="grid__row-contact">
+                        <div class="grid__column-6">
+                            <img src="./img/contact-img.svg" alt="">
+                        </div>
+                        <div class="grid__column-6">
+                            <div class="contact__form">
+                                <span class="contact__title">Thông tin liên hệ</span>
+                                <div class="contact__info">
+                                    <input type="text" name="" placeholder="Name" id="" class="contact__name">
+                                    <input type="email" name="" placeholder="Email" id="" class="contact__email">
+                                </div>
+                                <div class="contact__number">
+                                    <input type="tel" placeholder="Phone number" class="contact__phone" name="" id="">
+                                    <input type="number" min="1" maxlength="5" placeholder="People Number" name="" id="" class="contact__people">
+                                </div>
+                                <textarea name="" placeholder="Note" class="contact__note" id="" cols="30" rows="10"></textarea>
+                                <button class="contact__btn">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="grid__content">
+                <div class="footer__about">
+                    <div class="footer__brands">
+                        <h3>Local Brand</h3>
+                        <a href="#" class="footer__place">VietNam</a>
+                        <a href="#" class="footer__place">USA</a>
+                        <a href="#" class="footer__place">UK</a>
+                        <a href="#" class="footer__place">Japan</a>
+                        <a href="#" class="footer__place">Korea</a>
+                        <a href="#" class="footer__place">Germany</a>
+                        <a href="#" class="footer__place">France</a>
+                        <a href="#" class="footer__place">Sweden</a>
+                        <a href="#" class="footer__place">Switzerland</a>
+                        <a href="#" class="footer__place">China</a>
+                    </div>
+                    <div class="footer__socials">
+                        <h3>Social Network</h3>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-facebook"></i> Facebook</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-twitch"></i> Twitch</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-snapchat"></i> Snapchat</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-linkedin-in"></i> Linkedin</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-youtube"></i> Youtube</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-telegram"></i> Telegram</a>
+                        <a href="" class="footer__network"> 
+                            <i class="fab fa-google-plus-g"></i> Google+</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-whatsapp"></i> Whatsapp
+                        </a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-tiktok"></i> TikTok
+                        </a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-facebook-messenger"></i> Messenger
+                        </a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-reddit"></i>   Reddit
+                        </a>    
+                    </div>
+                    <div class="footer__links">
+                        <h3>Travel links</h3>
+                        <a href="https://www.traveloka.com/vi-vn/" class="footer__place">Traveloka</a>
+                        <a href="https://www.booking.com/index.vi.html?label=gen173nr-1BCAEoggI46AdIM1gEaPQBiAEBmAEquAEXyAEM2AEB6AEBiAIBqAIDuAK33MeJBsACAdICJDgyMjE4ZTFlLWY0MDMtNGE3Ny05OWQ3LWY2OTllMjkzNzIwY9gCBeACAQ;sid=48ec6368baa9b9a1893bcf3de45f6105;keep_landing=1&sb_price_type=total&" class="footer__place">Booking.com</a>
+                        <a href="https://www.airbnb.com.vn/" class="footer__place">Airbnb</a>
+                        <a href="https://www.google.com/maps/@9.779349,105.6189045,11z?hl=vi-VN" class="footer__place">Google Map</a>
+                        <a href="https://www.mtrip.com/" class="footer__place">mTrip</a>
+                        <a href="https://www.tripcase.com/web2/trips" class="footer__place">Tripcase</a>
+                        <a href="https://www.couchsurfing.com/" class="footer__place">Couchsurfing</a>
+                        <a href="https://www.agoda.com/?cid=1844104" class="footer__place">Agoda</a>
+                        <a href="https://www.skyscanner.com.vn/" class="footer__place">Skycanner</a>
+                        <a href="https://www.klook.com/vi/" class="footer__place">Klook</a>
+                    </div>
+                    <div class="footer__pay">
+                        <h3>Payment by</h3>
+                        <ul class="footer__card">
+                            <li class="footer__wallet footer--visa"></li>
+                            <li class="footer__wallet footer--master-card"></li>
+                            <li class="footer__wallet footer--jcb"></li>
+                            <li class="footer__wallet footer--ccc"></li>
+                            <li class="footer__wallet footer--cod"></li>
+                        </ul>
+                        <p>Download</p>
+                        <div class="footer__apps">
+                            <img src="./img/qrcode.png" alt="" class="footer__qr-code">
+                            <div class="footer__application">
+                                <img src="./img/gg.png" alt="" class="footer__apple">
+                                <img src="./img/gg1.png" alt="" class="footer__apple">
+                                <img src="./img/appgallery.png" alt="" class="footer__apple">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__introduce">
+                    <p>Created by</p>
+                    <span>Me</span>
+                    <p>| All Right Reserved!</p>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <!-- <div class="modal open">
+        <div class="modal__body">
+            <div class="modal__user">
+                <div class="modal__container">
+                    <div class="modal__header">
+                        <div class="span">Login</div>
+                    </div>
+                    <div class="modal__input">
+                        <input type="text" placeholder="Enter your Email or Number" name="" id="" class="modal__text">
+                        <input type="password" placeholder="Enter your Password" name="" id="" class="modal__text">
+                    </div>
+                    <button class="modal__btn">Login</button>
+                    <div class="modal__remember">
+                        <input type="checkbox" name="" id="">Remember Me.
+                    </div>
+                    <div class="modal__check">
+                        <p class="modal__password">Forgot Password?</p> Click Here
+                        <p class="modal__account">Don't Have Any Account?</p> Register Now
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <script src="./main.js"></script>
+</body>
+</html>
